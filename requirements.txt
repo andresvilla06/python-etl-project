@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+selenium
+beautifulsoup4
+requests
+jupyter
+jupyterlab
+notebook
+ipykernel
+openpyxl
+pyarrow
+numexpr
+bottleneck
+pytest
+pyspark

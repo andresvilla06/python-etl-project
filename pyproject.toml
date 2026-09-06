@@ -1,0 +1,35 @@
+[project]
+name = "python-etl-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "andresvilla06", email = "avillarreal0601@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "bottleneck>=1.6.0",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.6.3",
+    "matplotlib>=3.11.1",
+    "notebook>=7.6.2",
+    "numexpr>=2.14.2",
+    "numpy>=2.5.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "pyspark>=4.2.0",
+    "pytest>=9.1.1",
+    "requests>=2.34.2",
+    "seaborn>=0.13.2",
+    "selenium>=4.48.0",
+]
+
+[project.scripts]
+python-etl-project = "python_etl_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
